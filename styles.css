@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(1);
+    background-color: #771f1f; /* Cambia el fondo a color bordó */
+    color: #fff; /* Cambia el color de las letras a blanco */
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #fff; /* Cambia el color del encabezado a blanco */
+}
+
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #fff; /* Cambia el color del texto de las etiquetas a blanco */
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #fff; /* Cambia el color de fondo del botón a blanco */
+    color: #771f1f; /* Cambia el color del texto del botón a bordó */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+a#termsLink {
+    display: block;
+    margin-top: 20px;
+    color: #fff; /* Cambia el color del enlace a blanco */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    background-color: #423b3b; /* Cambia el color de fondo del contenido del popup a bordó */
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff; /* Cambia el color del botón de cierre a blanco */
+    cursor: pointer;
+}
